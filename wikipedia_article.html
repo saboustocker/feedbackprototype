@@ -1,0 +1,307 @@
+
+ <h1 id="firstHeading" class="firstHeading mw-first-heading"><span class="mw-page-title-main">Business Process Model and Notation</h1>  
+ <p><b>Business Process Model and Notation</b> (<b>BPMN</b>) is a <a href="https://en.wikipedia.org/wiki/Information_visualization" class="mw-redirect" title="Information visualization">graphical representation</a> for specifying <a href="https://en.wikipedia.org/wiki/Business_process" title="Business process">business processes</a> in a <a href="https://en.wikipedia.org/wiki/Business_process_modeling" title="Business process modeling">business process model</a>. </p>
+ <p>Originally developed by the <a href="https://en.wikipedia.org/wiki/Business_Process_Management_Initiative" class="mw-redirect" title="Business Process Management Initiative">Business Process Management Initiative</a> (BPMI), BPMN has been maintained by the <a href="https://en.wikipedia.org/wiki/Object_Management_Group" title="Object Management Group">Object Management Group</a> (OMG) since the two organizations merged in 2005. Version 2.0 of BPMN was released in January 2011,<sup id="cite_ref-BPMN20_1-0" class="reference"><a href="#cite_note-BPMN20-1"><span class="cite-bracket">[</span>1<span class="cite-bracket">]</span></a></sup> at which point the name was amended to <b>Business Process Model <i>and</i> Notation</b>  to reflect the introduction of execution semantics, which  were  introduced alongside the existing notational and diagramming elements.  Though it is an OMG specification, BPMN is also ratified as <a href="https://en.wikipedia.org/wiki/International_Organization_for_Standardization" title="International Organization for Standardization">ISO</a> 19510. The latest version is BPMN 2.0.2, published in January 2014.<sup id="cite_ref-2" class="reference"><a href="#cite_note-2"><span class="cite-bracket">[</span>2<span class="cite-bracket">]</span></a></sup> </p>  <div class="mw-heading mw-heading2">
+ <h2 id="Overview">Overview</h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://en.wikipedia.org/w/index.php?title=Business_Process_Model_and_Notation&amp;action=edit&amp;section=1" title="Edit section: Overview"><span>edit</span></a><span class="mw-editsection-bracket">]</span></span></div> 
+ <p>Business Process Model and Notation (BPMN) is a standard for <a href="https://en.wikipedia.org/wiki/Business_process_modeling" title="Business process modeling">business process modeling</a> that provides a graphical notation for specifying <a href="https://en.wikipedia.org/wiki/Business_process" title="Business process">business processes</a> in a <i>Business Process Diagram</i> (BPD),<sup id="cite_ref-3" class="reference"><a href="#cite_note-3"><span class="cite-bracket">[</span>3<span class="cite-bracket">]</span></a></sup> based on a <a href="https://en.wikipedia.org/wiki/Flowchart" title="Flowchart">flowcharting</a> technique very similar to <a href="https://en.wikipedia.org/wiki/Activity_diagram" title="Activity diagram">activity diagrams</a> from <a href="https://en.wikipedia.org/wiki/Unified_Modeling_Language" title="Unified Modeling Language">Unified Modeling Language</a> (UML).<sup id="cite_ref-4" class="reference"><a href="#cite_note-4"><span class="cite-bracket">[</span>4<span class="cite-bracket">]</span></a></sup> The objective of BPMN is to support <a href="https://en.wikipedia.org/wiki/Business_process_management" title="Business process management">business process management</a>,  for both technical users and business users, by providing a notation  that is intuitive to business users, yet able to represent complex  process semantics. The BPMN specification also provides a mapping  between the graphics of the notation and the underlying constructs of  execution languages, particularly <a href="https://en.wikipedia.org/wiki/Business_Process_Execution_Language" title="Business Process Execution Language">Business Process Execution Language</a> (BPEL).<sup id="cite_ref-5" class="reference"><a href="#cite_note-5"><span class="cite-bracket">[</span>5<span class="cite-bracket">]</span></a></sup> </p>
+ <p>BPMN has been designed to provide a standard notation readily  understandable by all business stakeholders, typically including  business analysts, technical developers and business managers. BPMN can  therefore be used to support the generally desirable aim of all  stakeholders on a project adopting a common language to describe  processes, helping to avoid communication gaps that can arise between <a href="https://en.wikipedia.org/wiki/Business_process_design" class="mw-redirect" title="Business process design">business process design</a> and implementation. </p>
+ <p>BPMN is one of a number of business process modeling language  standards used by modeling tools and processes. While the current  variety of languages may suit different modeling environments, there are  those who advocate for the development or emergence of a single,  comprehensive standard, combining the strengths of different existing  languages. It is suggested that in time, this could help to unify the  expression of basic business process concepts (e.g., public and private  processes, choreographies), as well as advanced process concepts (e.g.,  exception handling, transaction compensation). </p>
+ <p>Two new standards, using a similar approach to BPMN have been developed, addressing case management modeling (<a href="https://en.wikipedia.org/wiki/CMMN" title="CMMN">Case Management Model and Notation</a>) and <a href="https://en.wikipedia.org/wiki/Decision_model" title="Decision model">decision modeling</a> (<a href="https://en.wikipedia.org/wiki/Decision_Model_and_Notation" title="Decision Model and Notation">Decision Model and Notation</a>). </p> <div class="mw-heading mw-heading2">
+ <h2 id="Topics">Topics</h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://en.wikipedia.org/w/index.php?title=Business_Process_Model_and_Notation&amp;action=edit&amp;section=2" title="Edit section: Topics"><span>edit</span></a><span class="mw-editsection-bracket">]</span></span></div> <div class="mw-heading mw-heading3">
+ <h3 id="Scope">Scope</h3><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://en.wikipedia.org/w/index.php?title=Business_Process_Model_and_Notation&amp;action=edit&amp;section=3" title="Edit section: Scope"><span>edit</span></a><span class="mw-editsection-bracket">]</span></span></div> 
+ <p>BPMN is constrained to support only the concepts of modeling  applicable to business processes. Other types of modeling done by  organizations for non-process purposes are out of scope for BPMN.  Examples of modeling excluded from BPMN are: </p> 
+ <ul>
+ <li>Organizational structures</li> 
+ <li>Functional breakdowns</li> 
+ <li>Data models<sup id="cite_ref-6" class="reference"><a href="#cite_note-6"><span class="cite-bracket">[</span>6<span class="cite-bracket">]</span></a></sup></li></ul> 
+ <p>In addition, while BPMN shows the flow of data (messages), and the association of data artifacts to activities, it is not a <a href="https://en.wikipedia.org/wiki/Data_flow_diagram" class="mw-redirect" title="Data flow diagram">data flow diagram</a>. </p> <div class="mw-heading mw-heading3">
+ <h3 id="Elements">Elements</h3><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://en.wikipedia.org/w/index.php?title=Business_Process_Model_and_Notation&amp;action=edit&amp;section=4" title="Edit section: Elements"><span>edit</span></a><span class="mw-editsection-bracket">]</span></span></div> 
+ <p>BPMN models are expressed by simple diagrams constructed from a  limited set of graphical elements. For both business users and  developers, they simplify understanding of business activities' flow and  process. BPMN's four basic element categories are: </p> <dl><dt>Flow objects</dt> <dd>Events, activities, gateways</dd> <dt>Connecting objects</dt> <dd>Sequence flow, message flow, association</dd> <dt><a href="https://en.wikipedia.org/wiki/Swim_lane" class="mw-redirect" title="Swim lane">Swim lanes</a></dt> <dd>Pool, lane, Dark Pool</dd> <dt>Artifacts</dt> <dd>Data object, group, annotation</dd></dl> 
+ <p>These four categories enable creation of simple business process  diagrams (BPDs). BPDs also permit making new types of flow object or  artifact, to make the diagram more understandable. </p> <div class="mw-heading mw-heading3">
+ <h3 id="Flow_objects_and_connecting_objects">Flow objects and connecting objects</h3><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://en.wikipedia.org/w/index.php?title=Business_Process_Model_and_Notation&amp;action=edit&amp;section=5" title="Edit section: Flow objects and connecting objects"><span>edit</span></a><span class="mw-editsection-bracket">]</span></span></div> 
+ <ul class="center gallery mw-gallery-traditional"> 		
+ <li class="gallerybox" style="width: 155px"> 			<div class="thumb" style="width: 150px; height: 150px;"><span typeof="mw:File"><a href="https://en.wikipedia.org/wiki/File:BPMN_plain_event_types.svg" class="mw-file-description" title="Event"><img alt="Event" src="Business%20Process%20Model%20and%20Notation%20-%20Wikipedia_files/BPMN_plain_event_types.svg.png" decoding="async" width="120" height="38" class="mw-file-element" srcset="Business%20Process%20Model%20and%20Notation%20-%20Wikipedia_files/BPMN_plain_event_types.svg_002.png 1.5x" data-file-width="786" data-file-height="247"></a></span></div> 			<div class="gallerytext">Event</div> 		</li> 		
+ <li class="gallerybox" style="width: 155px"> 			<div class="thumb" style="width: 150px; height: 150px;"><span typeof="mw:File"><a href="https://en.wikipedia.org/wiki/File:BPMN_Activity_Types.jpg" class="mw-file-description" title="Activity"><img alt="Activity" src="Business%20Process%20Model%20and%20Notation%20-%20Wikipedia_files/BPMN_Activity_Types.jpg" decoding="async" width="120" height="25" class="mw-file-element" srcset="Business%20Process%20Model%20and%20Notation%20-%20Wikipedia_files/BPMN_Activity_Types_002.jpg 1.5x" data-file-width="747" data-file-height="154"></a></span></div> 			<div class="gallerytext">Activity</div> 		</li> 		
+ <li class="gallerybox" style="width: 155px"> 			<div class="thumb" style="width: 150px; height: 150px;"><span typeof="mw:File"><a href="https://en.wikipedia.org/wiki/File:BPMN_gateway_types.png" class="mw-file-description" title="Gateway"><img alt="Gateway" src="Business%20Process%20Model%20and%20Notation%20-%20Wikipedia_files/BPMN_gateway_types.png" decoding="async" width="106" height="120" class="mw-file-element" srcset="Business%20Process%20Model%20and%20Notation%20-%20Wikipedia_files/BPMN_gateway_types_002.png 1.5x" data-file-width="374" data-file-height="425"></a></span></div> 			<div class="gallerytext">Gateway</div> 		</li> 		
+ <li class="gallerybox" style="width: 155px"> 			<div class="thumb" style="width: 150px; height: 150px;"><span typeof="mw:File"><a href="https://en.wikipedia.org/wiki/File:Different_Types_of_BPMN_connections.png" class="mw-file-description" title="Connections"><img alt="Connections" src="Business%20Process%20Model%20and%20Notation%20-%20Wikipedia_files/Different_Types_of_BPMN_connections.png" decoding="async" width="120" height="67" class="mw-file-element" srcset="Business%20Process%20Model%20and%20Notation%20-%20Wikipedia_files/Different_Types_of_BPMN_connections_002.png 1.5x" data-file-width="524" data-file-height="294"></a></span></div> 			<div class="gallerytext">Connections</div> 		</li> </ul> 
+ <p><i>Flow objects</i> are the main describing elements within BPMN, and consist of three core elements: events, activities, and gateways. </p> <div class="mw-heading mw-heading4"><h4 id="Event">Event</h4><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://en.wikipedia.org/w/index.php?title=Business_Process_Model_and_Notation&amp;action=edit&amp;section=6" title="Edit section: Event"><span>edit</span></a><span class="mw-editsection-bracket">]</span></span></div> <dl><dd>An Event is represented with a circle and denotes something that <i>happens</i> (compared with an activity, which is something that is <i>done</i>).  Icons within the circle denote the type of event (e.g., an envelope  representing a message, or a clock representing time). Events are also  classified as <b>Catching</b> (for example, if catching an incoming message starts a process) or <b>Throwing</b> (such as throwing a completion message when a process ends). <dl><dt>Start event</dt> <dd>Acts as a process trigger; indicated by a single narrow border, and can only be <i>Catch</i>, so is shown with an open (outline) icon.</dd> <dt>Intermediate event</dt> <dd>Represents something that happens between the start and end events; is indicated by a double border, and can <i>Throw</i> or <i>Catch</i>  (using solid or open icons as appropriate). For example, a task could  flow to an event that throws a message across to another pool, where a  subsequent event waits to catch the response before continuing.</dd> <dt>End event</dt> <dd>Represents the result of a process; indicated by a single thick or bold border, and can only <i>Throw</i>, so is shown with a solid icon.</dd></dl></dd></dl> <div class="mw-heading mw-heading4"><h4 id="Activity">Activity</h4><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://en.wikipedia.org/w/index.php?title=Business_Process_Model_and_Notation&amp;action=edit&amp;section=7" title="Edit section: Activity"><span>edit</span></a><span class="mw-editsection-bracket">]</span></span></div> <dl><dd>An activity is represented with a rounded-corner rectangle and  describes the kind of work which must be done. An activity is a generic  term for work that a company performs.  It can be atomic or compound. <dl><dt>Task</dt> <dd>A task represents a single unit of work that is not or cannot be  broken down to a further level of business process detail.  It is  referred to as an atomic activity.  A task is the lowest level activity  illustrated on a process diagram.  A set of tasks may represent a  high-level procedure.</dd> <dt>Sub-process</dt> <dd>Used to hide or reveal additional levels of business process detail.  When collapsed, a sub-process is indicated by a plus sign against the  bottom line of the rectangle; when expanded, the rounded rectangle  expands to show all flow objects, connecting objects, and artifacts.  A  sub-process is referred to as a compound activity.</dd> <dd>Has its own self-contained start and end events; sequence flows from the <i>parent</i> process must not cross the boundary.</dd> <dt>Transaction</dt> <dd>A form of sub-process in which all contained activities must be  treated as a whole; i.e., they must all be completed to meet an  objective, and if any one of them fails, they must all be compensated  (undone). Transactions are differentiated from expanded sub-processes by  being surrounded by a double border.</dd> <dt>Call Activity</dt> <dd>A point in the process where a global process or a global Task is  reused. A call activity is differentiated from other activity types by a  bolded border around the activity area.</dd></dl></dd></dl> <div class="mw-heading mw-heading4"><h4 id="Gateway">Gateway</h4><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://en.wikipedia.org/w/index.php?title=Business_Process_Model_and_Notation&amp;action=edit&amp;section=8" title="Edit section: Gateway"><span>edit</span></a><span class="mw-editsection-bracket">]</span></span></div> <dl><dd>A gateway is represented with a diamond shape and determines  forking and merging of paths, depending on the conditions expressed. <dl><dt>Exclusive</dt> <dd>Used to create alternative flows in a process. Because only one of the paths can be taken, it is called exclusive.</dd> <dt>Event Based</dt> <dd>The condition determining the path of a process is based on an evaluated event.</dd> <dt>Parallel</dt> <dd>Used to create parallel paths without evaluating any conditions.</dd> <dt>Inclusive</dt> <dd>Used to create alternative flows where all paths are evaluated.</dd> <dt>Exclusive Event Based</dt> <dd>An event is being evaluated to determine which of mutually exclusive paths will be taken.</dd> <dt>Complex</dt> <dd>Used to model complex synchronization behavior.</dd> <dt>Parallel Event Based</dt> <dd>Two parallel processes are started based on an event, but there is no evaluation of the event.</dd></dl></dd></dl> <div class="mw-heading mw-heading4"><h4 id="Connections">Connections</h4><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://en.wikipedia.org/w/index.php?title=Business_Process_Model_and_Notation&amp;action=edit&amp;section=9" title="Edit section: Connections"><span>edit</span></a><span class="mw-editsection-bracket">]</span></span></div> 
+ <p><i>Flow objects</i> are connected to each other using <b>Connecting objects</b>, which are of three types: sequences, messages, and associations. </p> <dl><dd><dl><dt>Sequence Flow</dt></dl></dd> <dd>A Sequence Flow is represented with a solid line and arrowhead, and shows in which order the activities are performed. The <i>sequence flow</i> may also have a symbol at its start, a small diamond indicates one of a number of <b>conditional flows</b> from an activity, while a diagonal slash indicates the <b>default flow</b> from a decision or activity with conditional flows.</dd></dl> <dl><dd><dl><dt>Message Flow</dt></dl></dd> <dd>A Message Flow is represented with a dashed line, an open circle at  the start, and an open arrowhead at the end. It tells us what messages  flow across organizational boundaries (i.e., between pools). A message  flow can never be used to connect activities or events within the same  pool.</dd></dl> <dl><dd><dl><dt>Association</dt></dl></dd> <dd>An Association is represented with a dotted line. It is used to  associate an Artifact or text to a Flow Object, and can indicate some  directionality using an open arrowhead (toward the artifact to represent  a result, from the artifact to represent an input, and both to indicate  it is read and updated). No directionality is used when the Artifact or  text is associated with a sequence or message flow (as that flow  already shows the direction).</dd></dl> <div class="mw-heading mw-heading3">
+ <h3 id="Pools,_Lanes,_and_artifacts"><span id="Pools.2C_Lanes.2C_and_artifacts"></span>Pools, Lanes, and artifacts</h3><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://en.wikipedia.org/w/index.php?title=Business_Process_Model_and_Notation&amp;action=edit&amp;section=10" title="Edit section: Pools, Lanes, and artifacts"><span>edit</span></a><span class="mw-editsection-bracket">]</span></span></div> 
+ <ul class="center gallery mw-gallery-traditional"> 		
+ <li class="gallerybox" style="width: 155px"> 			<div class="thumb" style="width: 150px; height: 150px;"><span typeof="mw:File"><a href="https://en.wikipedia.org/wiki/File:Swin_Lane_-_BPMN_2.0_Artifact.png" class="mw-file-description" title="Swimlanes"><img alt="Swimlanes" src="Business%20Process%20Model%20and%20Notation%20-%20Wikipedia_files/Swin_Lane_-_BPMN_2.0_Artifact.png" decoding="async" width="117" height="120" class="mw-file-element" srcset="Business%20Process%20Model%20and%20Notation%20-%20Wikipedia_files/Swin_Lane_-_BPMN_2.0_Artifact_002.png 1.5x, Business%20Process%20Model%20and%20Notation%20-%20Wikipedia_files/Swin_Lane_-_BPMN_2.0_Artifact_003.png 2x" data-file-width="246" data-file-height="253"></a></span></div> 			<div class="gallerytext">Swimlanes</div> 		</li> 		
+ <li class="gallerybox" style="width: 155px"> 			<div class="thumb" style="width: 150px; height: 150px;"><span typeof="mw:File"><a href="https://en.wikipedia.org/wiki/File:Data_object_-_BPMN_2.0_Artifacts.png" class="mw-file-description" title="Data objects"><img alt="Data objects" src="Business%20Process%20Model%20and%20Notation%20-%20Wikipedia_files/Data_object_-_BPMN_2.0_Artifacts.png" decoding="async" width="77" height="120" class="mw-file-element" data-file-width="57" data-file-height="89"></a></span></div> 			<div class="gallerytext">Data objects</div> 		</li> 		
+ <li class="gallerybox" style="width: 155px"> 			<div class="thumb" style="width: 150px; height: 150px;"><span typeof="mw:File"><a href="https://en.wikipedia.org/wiki/File:Group_-_BPMN_2.0_Artifacts.png" class="mw-file-description" title="Groups"><img alt="Groups" src="Business%20Process%20Model%20and%20Notation%20-%20Wikipedia_files/Group_-_BPMN_2.0_Artifacts.png" decoding="async" width="120" height="100" class="mw-file-element" srcset="Business%20Process%20Model%20and%20Notation%20-%20Wikipedia_files/Group_-_BPMN_2.0_Artifacts_002.png 1.5x" data-file-width="264" data-file-height="220"></a></span></div> 			<div class="gallerytext">Groups</div> 		</li> 		
+ <li class="gallerybox" style="width: 155px"> 			<div class="thumb" style="width: 150px; height: 150px;"><span typeof="mw:File"><a href="https://en.wikipedia.org/wiki/File:Annotation_-_BPMN_2.0_Artifacts.png" class="mw-file-description" title="Annotation"><img alt="Annotation" src="Business%20Process%20Model%20and%20Notation%20-%20Wikipedia_files/Annotation_-_BPMN_2.0_Artifacts.png" decoding="async" width="120" height="118" class="mw-file-element" data-file-width="103" data-file-height="101"></a></span></div> 			<div class="gallerytext">Annotation</div> 		</li> </ul> 
+ <p><a href="https://en.wikipedia.org/wiki/Swim_lane" class="mw-redirect" title="Swim lane">Swim lanes</a> are a visual mechanism of organising and categorising activities, based on <a href="https://en.wikipedia.org/wiki/Cross_functional_flowchart" class="mw-redirect" title="Cross functional flowchart">cross functional flowcharting</a>, and in BPMN consist of two types: </p> <dl><dt>Pool</dt> <dd>Represents major participants in a process, typically separating  different organisations. A pool contains one or more lanes (like a real  swimming pool). A pool can be open (i.e., showing internal detail) when  it is depicted as a large rectangle showing one or more lanes, or  collapsed (i.e., hiding internal detail) when it is depicted as an empty  rectangle stretching the width or height of the diagram.</dd></dl> <dl><dt>Lane</dt> <dd>Used to organise and categorise activities within a pool according  to function or role, and depicted as a rectangle stretching the width or  height of the pool. A lane contains the flow objects, connecting  objects and artifacts.</dd></dl> 
+ <p><b>Artifacts</b> allow developers to bring some more information into  the model/diagram. In this way the model/diagram becomes more readable.  There are three pre-defined Artifacts, and they are: </p> 
+ <ul>
+ <li>Data objects: Data objects show the reader which data is required or produced in an activity.</li> 
+ <li>Group: A Group is represented with a rounded-corner rectangle and  dashed lines. The group is used to group different activities but does  not affect the flow in the diagram.</li> 
+ <li>Annotation: An annotation is used to give the reader of the model/diagram an understandable impression.</li></ul> <div class="mw-heading mw-heading3">
+ <h3 id="Examples_of_business_process_diagrams">Examples of business process diagrams</h3><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://en.wikipedia.org/w/index.php?title=Business_Process_Model_and_Notation&amp;action=edit&amp;section=11" title="Edit section: Examples of business process diagrams"><span>edit</span></a><span class="mw-editsection-bracket">]</span></span></div> 
+ <ul class="center gallery mw-gallery-traditional"> 	
+ <li class="gallerycaption">Click on small images for full-size version</li> 		
+ <li class="gallerybox" style="width: 155px"> 			<div class="thumb" style="width: 150px; height: 150px;"><span typeof="mw:File"><a href="https://en.wikipedia.org/wiki/File:BPMN-DiscussionCycle.jpg" class="mw-file-description" title="Discussion cycle"><img alt="Discussion cycle" src="Business%20Process%20Model%20and%20Notation%20-%20Wikipedia_files/BPMN-DiscussionCycle.jpg" decoding="async" width="120" height="64" class="mw-file-element" srcset="Business%20Process%20Model%20and%20Notation%20-%20Wikipedia_files/BPMN-DiscussionCycle_002.jpg 1.5x" data-file-width="1006" data-file-height="536"></a></span></div> 			<div class="gallerytext">Discussion cycle</div> 		</li> 		
+ <li class="gallerybox" style="width: 155px"> 			<div class="thumb" style="width: 150px; height: 150px;"><span typeof="mw:File"><a href="https://en.wikipedia.org/wiki/File:BPMN-E-MailVotingProcess.jpg" class="mw-file-description" title="E-mail voting process"><img alt="E-mail voting process" src="Business%20Process%20Model%20and%20Notation%20-%20Wikipedia_files/BPMN-E-MailVotingProcess.jpg" decoding="async" width="120" height="103" class="mw-file-element" srcset="Business%20Process%20Model%20and%20Notation%20-%20Wikipedia_files/BPMN-E-MailVotingProcess_002.jpg 1.5x" data-file-width="1131" data-file-height="969"></a></span></div> 			<div class="gallerytext">E-mail voting process</div> 		</li> 		
+ <li class="gallerybox" style="width: 155px"> 			<div class="thumb" style="width: 150px; height: 150px;"><span typeof="mw:File"><a href="https://en.wikipedia.org/wiki/File:BPMN-CollectVotes.jpg" class="mw-file-description" title="Collect votes"><img alt="Collect votes" src="Business%20Process%20Model%20and%20Notation%20-%20Wikipedia_files/120px-BPMN-CollectVotes.jpg" decoding="async" width="120" height="115" class="mw-file-element" srcset="Business%20Process%20Model%20and%20Notation%20-%20Wikipedia_files/BPMN-CollectVotes.jpg 1.5x" data-file-width="526" data-file-height="506"></a></span></div> 			<div class="gallerytext">Collect votes</div> 		</li> </ul> <div class="mw-heading mw-heading3">
+ <h3 id="BPMN_2.0.2">BPMN 2.0.2</h3><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://en.wikipedia.org/w/index.php?title=Business_Process_Model_and_Notation&amp;action=edit&amp;section=12" title="Edit section: BPMN 2.0.2"><span>edit</span></a><span class="mw-editsection-bracket">]</span></span></div> 
+ <p>The vision of BPMN 2.0.2 is to have one single specification for a  new Business Process Model and Notation that defines the notation,  metamodel and interchange format but with a modified name that still  preserves the "BPMN" brand. The features include: </p> 
+ <ul>
+ <li>Formalizes the execution semantics for all BPMN elements.</li> 
+ <li>Defines an extensibility mechanism for both Process model extensions and graphical extensions.</li> 
+ <li>Refines Event composition and correlation.</li> 
+ <li>Extends the definition of human interactions.</li> 
+ <li>Defines a Choreography model.</li></ul> 
+ <p>The current version of the specification was released in January 2014.<sup id="cite_ref-BPMN20_1-1" class="reference"><a href="#cite_note-BPMN20-1"><span class="cite-bracket">[</span>1<span class="cite-bracket">]</span></a></sup> </p> <div class="mw-heading mw-heading2">
+ <h2 id="Comparison_of_BPMN_versions">Comparison of BPMN versions</h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://en.wikipedia.org/w/index.php?title=Business_Process_Model_and_Notation&amp;action=edit&amp;section=13" title="Edit section: Comparison of BPMN versions"><span>edit</span></a><span class="mw-editsection-bracket">]</span></span></div> 
+ <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1251242444">
+ <table class="box-Technical plainlinks metadata ambox ambox-style ambox-technical" role="presentation"><tbody>
+ <tr>
+ <td class="mbox-image"><div class="mbox-image-div"><span typeof="mw:File"><span><img alt="" src="Business%20Process%20Model%20and%20Notation%20-%20Wikipedia_files/Edit-clear.svg.webp" decoding="async" width="40" height="40" class="mw-file-element" srcset="Business%20Process%20Model%20and%20Notation%20-%20Wikipedia_files/Edit-clear.svg_003.webp 1.5x, Business%20Process%20Model%20and%20Notation%20-%20Wikipedia_files/Edit-clear.svg_002.webp 2x" data-file-width="48" data-file-height="48"></span></span></div></td>
+ <td class="mbox-text"><div class="mbox-text-span">This section <b>may be too technical for most readers to understand</b>.<span class="hide-when-compact"> Please <a class="external text" href="https://en.wikipedia.org/w/index.php?title=Business_Process_Model_and_Notation&amp;action=edit">help improve it</a> to <a href="https://en.wikipedia.org/wiki/Wikipedia:Make_technical_articles_understandable" title="Wikipedia:Make technical articles understandable">make it understandable to non-experts</a>, without removing the technical details.</span>  <span class="date-container"><i>(<span class="date">December 2012</span>)</i></span><span class="hide-when-compact"><i> (<small><a href="https://en.wikipedia.org/wiki/Help:Maintenance_template_removal" title="Help:Maintenance template removal">Learn how and when to remove this message</a></small>)</i></span></div></td></tr></tbody></table> 
+ <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1251242444">
+ <table class="box-Update plainlinks metadata ambox ambox-content ambox-Update" role="presentation"><tbody>
+ <tr>
+ <td class="mbox-image"><div class="mbox-image-div"><span typeof="mw:File"><span><img alt="" src="Business%20Process%20Model%20and%20Notation%20-%20Wikipedia_files/Ambox_current_red_Asia_Australia.svg.webp" decoding="async" width="42" height="34" class="mw-file-element" srcset="Business%20Process%20Model%20and%20Notation%20-%20Wikipedia_files/Ambox_current_red_Asia_Australia.svg_002.webp 1.5x" data-file-width="360" data-file-height="290"></span></span></div></td>
+ <td class="mbox-text"><div class="mbox-text-span">This section needs to be <b>updated</b>.<span class="hide-when-compact"> Please help update this article to reflect recent events or newly available information.</span>  <span class="date-container"><i>(<span class="date">February 2014</span>)</i></span></div></td></tr></tbody></table> 
+ <table class="wikitable"> <tbody>
+ <tr> <th>Attributes </th> <th>BPMN 1.0 </th> <th>BPMN 1.1 </th> <th>BPMN 1.2 </th> <th>BPMN 2.0 </th></tr>  
+ <tr valign="top"> 
+ <td>Consortium </td> 
+ <td>BPMI &amp; iGrafx </td> 
+ <td><a href="https://en.wikipedia.org/wiki/Object_Management_Group" title="Object Management Group">OMG</a> </td> 
+ <td><a href="https://en.wikipedia.org/wiki/Object_Management_Group" title="Object Management Group">OMG</a> </td> 
+ <td><a href="https://en.wikipedia.org/wiki/Object_Management_Group" title="Object Management Group">OMG</a> </td></tr>  
+ <tr valign="top"> 
+ <td>Date of release </td> 
+ <td>May 2004 </td> 
+ <td>January 2008 </td> 
+ <td>January 2009 </td> 
+ <td>January 2011 </td></tr>  
+ <tr valign="top"> 
+ <td>Models </td> 
+ <td colspan="3" align="center"> 
+ <ul>
+ <li>Collaborative (public) <a href="https://en.wikipedia.org/wiki/Business-to-business" title="Business-to-business">B2B</a> processes,</li> 
+ <li>internal (private) business processes.</li></ul> </td> 
+ <td> 
+ <ul>
+ <li>collaborative (public) <a href="https://en.wikipedia.org/wiki/Business-to-business" title="Business-to-business">B2B</a> processes,</li> 
+ <li>internal (private) business processes,</li> 
+ <li>a <a href="https://en.wikipedia.org/wiki/Web_Service_Choreography" class="mw-redirect" title="Web Service Choreography">choreography</a> – expected behavior between two or more business participants,</li> 
+ <li>collaborations, which is a collection of participants and their interaction and</li> 
+ <li>a conversation – the logical relation of message exchanges.</li></ul> </td></tr>  
+ <tr valign="top"> 
+ <td>event </td> 
+ <td> 
+ <ul>
+ <li><b>start</b> (none, message, timer, rule, link, multiple)</li> 
+ <li><b>intermediate</b> (none, message, timer, error, cancel, compensation, rule, link, multiple)</li> 
+ <li><b>end</b> (none, message, error, cancel, compensation, link, terminate, multiple)</li></ul> </td> 
+ <td colspan="2"> 
+ <ul>
+ <li><b>start</b> (none, message, timer, conditional, signal, multiple)</li> 
+ <li><b>intermediate</b> (none, message, timer, error, cancel, compensation, conditional, link, signal, multiple)</li> 
+ <li><b>end</b> (none, message, error, cancel, compensation, signal, terminate, multiple)</li></ul> </td> 
+ <td> 
+ <ul>
+ <li><b>start</b> 
+ <ul>
+ <li><b>top-level</b> (none, message, timer, conditional, signal, multiple, parallel multiple)</li> 
+ <li><b>event sub-process interrupting</b> (message, timer, escalation, conditional, error, compensation, signal, multiple, parallel multiple)</li> 
+ <li><b>event sub-process non-interrupting</b> (message, timer, escalation, conditional, signal, multiple, parallel multiple)</li></ul></li> 
+ <li><b>intermediate</b> 
+ <ul>
+ <li><b>catching</b> (message, timer, conditional, link, signal, multiple, parallel multiple)</li> 
+ <li><b>boundary interrupting</b> (message, timer, escalation, conditional, error, cancel, compensation, signal, multiple, parallel multiple)</li> 
+ <li><b>boundary non-interrupting</b> (message, timer, escalation, conditional, signal, multiple, parallel multiple, terminate)</li> 
+ <li><b>throwing</b> (none, message, escalation, link, compensation, signal, multiple, parallel multiple)</li></ul></li> 
+ <li><b>end</b> (none, message, escalation, error, cancel, compensation, signal, multiple, terminate)</li></ul> </td></tr>  
+ <tr valign="top"> 
+ <td>activity </td> 
+ <td colspan="3"> 
+ <ul>
+ <li><b>task</b> (atomic)</li> 
+ <li><b>process/sub-process</b> (nonatomic) 
+ <ul>
+ <li>collapsed sub-process</li> 
+ <li>expanded sub-process</li></ul></li></ul> </td> 
+ <td> 
+ <ul>
+ <li><b>task</b> (atomic)</li> 
+ <li><b>choreography task</b> 
+ <ul>
+ <li>collapsed choreography sub-process</li> 
+ <li>expanded choreography sub-process</li></ul></li> 
+ <li><b>process/sub-process</b> (nonatomic) 
+ <ul>
+ <li>collapsed sub-process</li> 
+ <li>expanded sub-process</li></ul></li></ul> </td></tr>  
+ <tr valign="top"> 
+ <td>gateway </td> 
+ <td> 
+ <ul>
+ <li><b><a href="https://en.wikipedia.org/wiki/XOR" class="mw-redirect" title="XOR">XOR</a></b> – exclusive decision and merging. both data-based and event-based. data-based can be shown with or without the "x" marker.</li> 
+ <li><b><a href="https://en.wikipedia.org/wiki/Logical_disjunction" title="Logical disjunction">OR</a></b> – inclusive decision and merging</li> 
+ <li><b>complex</b> – complex conditions and situations</li> 
+ <li><b><a href="https://en.wikipedia.org/wiki/Logical_conjunction" title="Logical conjunction">AND</a></b> – forking and joining</li></ul> </td> 
+ <td colspan="2"> 
+ <ul>
+ <li><b>exclusive</b> decision and merging. both data-based and event-based. data-based can be shown with or without the "x" marker.</li> 
+ <li><b>inclusive</b> decision and merging.</li> 
+ <li><b>complex</b> – complex conditions and situations.</li> 
+ <li><b>parallel</b> forking and joining.</li></ul> </td> 
+ <td> 
+ <ul>
+ <li><b>exclusive</b> decision and merging. both data-based and event-based. exclusive can be shown with or without the "x" marker.</li> 
+ <li><b>inclusive</b> gateway decision and merging</li> 
+ <li><b>complex gateway</b> – complex conditions and situations</li> 
+ <li><b>parallel gateway</b> – forking and joining</li></ul> </td></tr>  
+ <tr valign="top"> 
+ <td>sequence flow </td> 
+ <td colspan="4" align="center"> 
+ <p><b>normal flow</b><br> uncontrolled flow <br> conditional flow <br> default flow <br> <b>exception flow</b> </p> </td></tr>  
+ <tr valign="top"> 
+ <td>message flow </td> 
+ <td colspan="4" align="center">message flow </td></tr>  
+ <tr valign="top"> 
+ <td>association </td> 
+ <td colspan="4" align="center">association </td></tr>  
+ <tr valign="top"> 
+ <td>pool </td> 
+ <td colspan="4" align="center">pool </td></tr>  
+ <tr valign="top"> 
+ <td>lane </td> 
+ <td colspan="4" align="center">lane </td></tr>  
+ <tr valign="top"> 
+ <td>data objects </td> 
+ <td colspan="3" align="center">data object </td> 
+ <td> 
+ <ul>
+ <li>data object 
+ <ul>
+ <li>collection</li> 
+ <li>data input</li> 
+ <li>data output</li></ul></li></ul> </td></tr>  
+ <tr valign="top"> 
+ <td>groups </td> 
+ <td colspan="4" align="center">group </td></tr>  
+ <tr valign="top"> 
+ <td>annotations </td> 
+ <td colspan="4" align="center">annotations </td></tr>  
+ <tr valign="top"> 
+ <td>message </td> 
+ <td data-sort-value="" style="vertical-align:middle; text-align:center" class="table-na">— </td> 
+ <td data-sort-value="" style="vertical-align:middle; text-align:center" class="table-na">— </td> 
+ <td data-sort-value="" style="vertical-align:middle; text-align:center" class="table-na">— </td> 
+ <td><b>message</b> </td></tr>  
+ <tr valign="top"> 
+ <td>other elements </td> 
+ <td colspan="3"> 
+ <ul>
+ <li><a href="https://en.wikipedia.org/wiki/Control_flow#Loops" title="Control flow">looping</a> 
+ <ul>
+ <li>activity looping</li> 
+ <li>sequence flow looping</li></ul></li> 
+ <li>multiple instances</li> 
+ <li>process break</li> 
+ <li><a href="https://en.wikipedia.org/wiki/Transaction_processing" title="Transaction processing">transactions</a></li> 
+ <li>nested/embedded sub-process</li> 
+ <li>off-page connector</li> 
+ <li>compensation association</li></ul> </td> 
+ <td> 
+ <ul>
+ <li><a href="https://en.wikipedia.org/wiki/Control_flow#Loops" title="Control flow">looping</a> 
+ <ul>
+ <li>activity looping</li> 
+ <li>sequence flow looping</li></ul></li> 
+ <li>multiple instances</li> 
+ <li>process break</li> 
+ <li><a href="https://en.wikipedia.org/wiki/Transaction_processing" title="Transaction processing">transactions</a></li> 
+ <li>nested/embedded sub-process</li> 
+ <li>off-page connector</li> 
+ <li>compensation association</li> 
+ <li>communication (subcommunication)</li> 
+ <li>communication link</li></ul> </td></tr>  
+ <tr valign="middle"> 
+ <td>Number of all elements </td> 
+ <td align="center">48 </td> 
+ <td align="center">55 </td> 
+ <td align="center">55 </td> 
+ <td align="center">116 </td></tr>  
+ <tr valign="top"> 
+ <td>Major changes </td> 
+ <td data-sort-value="" style="vertical-align:middle; text-align:center" class="table-na">— </td> 
+ <td> 
+ <ul>
+ <li>The new specification introduces a categorization of event  triggers into "catching" and "throwing" events. I.e. there are two kinds  of intermediate message events now – one kind responsible for reception  of messages ("catching") and one kind responsible for sending messages  ("throwing").</li> 
+ <li>In addition to the old types, it introduces a new type, the <b>signal event</b>.</li> 
+ <li>Start and end link events do not exist any longer in BPMN 1.1.</li> 
+ <li>The old "rule events" were renamed to <b>conditional events</b>. The semantics and appearance have not changed.</li> 
+ <li>The event-based gateway in BPMN 1.1 looks slightly different from  what it looked like in 1.0. Instead of the hexagonal star it now has a  pentagon in its center. The same shape is also used for the multiple  events (start, intermediate, end).</li> 
+ <li>There is an additional line separating your lane's description from its content.</li></ul> </td> 
+ <td> 
+ <p>The BPMN 1.2 minor revision changes consist of editorial corrections  and implementation bug fixes. Consequently, these minor changes affect  modeling tool vendors more than modelers (users).<sup id="cite_ref-bpmnfaq_7-0" class="reference"><a href="#cite_note-bpmnfaq-7"><span class="cite-bracket">[</span>7<span class="cite-bracket">]</span></a></sup> </p> </td> 
+ <td> 
+ <ul>
+ <li>Choreographies 
+ <ul>
+ <li>Choreographies-model</li> 
+ <li>Conversation-model</li></ul></li> 
+ <li>Complete <a href="https://en.wikipedia.org/wiki/Metamodeling" title="Metamodeling">Metamodel</a></li> 
+ <li>BPMN Core</li> 
+ <li>BPMN Execution <a href="https://en.wikipedia.org/wiki/Computational_semantics" title="Computational semantics">Semantics</a></li> 
+ <li>BPMN – <a href="https://en.wikipedia.org/wiki/BPEL" class="mw-redirect" title="BPEL">BPEL</a> Mapping</li> 
+ <li><a href="https://en.wikipedia.org/wiki/XPDL" title="XPDL">XPDL</a> (BPMN <a href="https://en.wikipedia.org/wiki/XML" title="XML">XML</a> <a href="https://en.wikipedia.org/wiki/Serialization" title="Serialization">Serialization</a>)</li> 
+ <li>Diagram Interchange</li> 
+ <li>Elements For <a href="https://en.wikipedia.org/wiki/Abstraction" title="Abstraction">Abstraction</a> 
+ <ul>
+ <li>Callable Element</li> 
+ <li>Call Activity</li> 
+ <li>Global Task</li></ul></li> 
+ <li>Gateways (Updated) 
+ <ul>
+ <li>Exclusive/Parallel Event-based Gateway (they stand at the beginning of the process)</li></ul></li> 
+ <li>Tasks/SubProcesses (Updated) 
+ <ul>
+ <li>Event-Subprocess (Used to handle events in the bounding subprocess)</li> 
+ <li>BusinessRule task</li> 
+ <li>Sequential Multi-Instance Activity</li> 
+ <li>Service Task</li></ul></li> 
+ <li>Artifacts (Updated) 
+ <ul>
+ <li>Data Objects (Collection, Data Input, Data Output)</li></ul></li></ul> </td></tr> </tbody></table> <div class="mw-heading mw-heading2">
+ <h2 id="Types_of_BPMN_sub-model">Types of BPMN sub-model</h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://en.wikipedia.org/w/index.php?title=Business_Process_Model_and_Notation&amp;action=edit&amp;section=14" title="Edit section: Types of BPMN sub-model"><span>edit</span></a><span class="mw-editsection-bracket">]</span></span></div> 
+ <p>Business process modeling is used to communicate a wide variety of  information to a wide variety of audiences. BPMN is designed to cover  this wide range of usage and allows modeling of end-to-end business  processes to allow the viewer of the Diagram to be able to easily  differentiate between sections of a BPMN Diagram. There are three basic  types of sub-models within an end-to-end BPMN model: Private (internal)  business processes, Abstract (public) processes, and Collaboration  (global) processes: </p> <dl><dt>Private (internal) business processes</dt> <dd>Private business processes are those internal to a specific  organization and are the type of processes that have been generally  called <a href="https://en.wikipedia.org/wiki/Workflow" title="Workflow">workflow</a>  or BPM processes. If swim lanes are used then a private business  process will be contained within a single Pool. The Sequence Flow of the  Process is therefore contained within the Pool and cannot cross the  boundaries of the Pool. Message Flow can cross the Pool boundary to show  the <a href="https://en.wikipedia.org/wiki/Social_interaction" class="mw-redirect" title="Social interaction">interactions</a> that exist between separate private business processes.</dd></dl> <dl><dt>Abstract (public) processes</dt> <dd>This represents the interactions between a private business process  and another process or participant. Only those activities that  communicate outside the private business process are included in the  abstract process. All other “internal” activities of the private  business process are not shown in the abstract process. Thus, the  abstract process shows to the outside world the sequence of messages  that are required to interact with that business process. Abstract  processes are contained within a Pool and can be modeled separately or  within a larger BPMN Diagram to show the Message Flow between the  abstract process activities and other entities. If the abstract process  is in the same Diagram as its corresponding private business process,  then the activities that are common to both processes can be associated.</dd></dl> <dl><dt>Collaboration (global) processes</dt> <dd>A collaboration process depicts the interactions between two or more  business entities. These interactions are defined as a sequence of  activities that represent the message exchange patterns between the  entities involved. Collaboration processes may be contained within a  Pool and the different participant business interactions are shown as  Lanes within the Pool. In this situation, each Lane would represent two  participants and a direction of travel between them. They may also be  shown as two or more Abstract Processes interacting through Message Flow  (as described in the previous section). These processes can be modeled  separately or within a larger BPMN Diagram to show the Associations  between the collaboration process activities and other entities. If the  collaboration process is in the same Diagram as one of its corresponding  private business process, then the activities that are common to both  processes can be associated.</dd></dl> 
+ <p>Within and between these three BPMN sub-models, many types of  Diagrams can be created. The following are the types of business  processes that can be modeled with BPMN (those with asterisks may not  map to an executable language): </p> 
+ <ul>
+ <li>High-level private process activities (not functional breakdown)*</li> 
+ <li>Detailed private business process</li> 
+ <li>As-is or old business process*</li> 
+ <li>To-be or new business process</li> 
+ <li>Detailed private business process with interactions to one or more external entities (or “Black Box” processes)</li> 
+ <li>Two or more detailed private business processes interacting</li> 
+ <li>Detailed private business process relationship to Abstract Process</li> 
+ <li>Detailed private business process relationship to Collaboration Process</li> 
+ <li>Two or more Abstract Processes*</li> 
+ <li>Abstract Process relationship to Collaboration Process*</li> 
+ <li>Collaboration Process only (e.g., ebXML BPSS or RosettaNet)*</li> 
+ <li>Two or more detailed private business processes interacting through their Abstract Processes and/or a Collaboration Process</li></ul> 
+ <p>BPMN is designed to allow all the above types of Diagrams. However,  it should be cautioned that if too many types of sub-models are  combined, such as three or more private processes with message flow  between each of them, then the Diagram may become difficult to  understand. Thus, the OMG recommends that the modeler pick a focused  purpose for the BPD, such as a private or collaboration process. </p> <div class="mw-heading mw-heading2">
+ <h2 id="Comparison_with_other_process_modeling_notations">Comparison with other process modeling notations</h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://en.wikipedia.org/w/index.php?title=Business_Process_Model_and_Notation&amp;action=edit&amp;section=15" title="Edit section: Comparison with other process modeling notations"><span>edit</span></a><span class="mw-editsection-bracket">]</span></span></div> 
+ <p><a href="https://en.wikipedia.org/wiki/Event-driven_process_chain" title="Event-driven process chain">Event-driven process chains</a> (EPC) and BPMN are two notations with similar expressivity when <a href="https://en.wikipedia.org/wiki/Process_modeling" title="Process modeling">process modeling</a> is concerned.<sup id="cite_ref-8" class="reference"><a href="#cite_note-8"><span class="cite-bracket">[</span>8<span class="cite-bracket">]</span></a></sup>  A BPMN model can be transformed into an EPC model. Conversely, an EPC  model can be transformed into a BPMN model with only a slight loss of  information.<sup id="cite_ref-9" class="reference"><a href="#cite_note-9"><span class="cite-bracket">[</span>9<span class="cite-bracket">]</span></a></sup>  A study showed that for the same process, the BPMN model may need  around 40% fewer elements than the corresponding EPC model, but with a  slightly larger set of symbols.  The BPMN model would therefore be  easier to read.  The conversion between the two notations can be  automated.<sup id="cite_ref-10" class="reference"><a href="#cite_note-10"><span class="cite-bracket">[</span>10<span class="cite-bracket">]</span></a></sup> </p>
+ <p><a href="https://en.wikipedia.org/wiki/Activity_diagram" title="Activity diagram">UML activity diagrams</a>  and BPMN are two notations that can be used to model the same  processes: a subset of the activity diagram elements have a similar  semantic than BPMN elements, despite the smaller and less expressive set  of symbols.<sup id="cite_ref-11" class="reference"><a href="#cite_note-11"><span class="cite-bracket">[</span>11<span class="cite-bracket">]</span></a></sup>  A study showed that both types of process models appear to have the  same level of readability for inexperienced users, despite the higher  formal constraints of an activity diagram. </p> <div class="mw-heading mw-heading2">
+ <h2 id="BPM_Certifications">BPM Certifications</h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://en.wikipedia.org/w/index.php?title=Business_Process_Model_and_Notation&amp;action=edit&amp;section=16" title="Edit section: BPM Certifications"><span>edit</span></a><span class="mw-editsection-bracket">]</span></span></div> 
+ <p>The Business Process Management (BPM) world acknowledges the critical  importance of modeling standards for optimizing and standardizing  business processes. The Business Process Model and Notation (BPMN)  version 2 has brought significant improvements in event and subprocess  modeling, significantly enriching the capabilities for documenting,  analyzing, and optimizing business processes. </p>
+ <p>Elemate positions itself as a guide in exploring the various BPM  certifications and dedicated training paths, thereby facilitating the  mastery of BPMN and continuous improvement of processes within  companies. </p> <div class="mw-heading mw-heading3">
+ <h3 id="OMG_OCEB_certification">OMG OCEB certification</h3><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://en.wikipedia.org/w/index.php?title=Business_Process_Model_and_Notation&amp;action=edit&amp;section=17" title="Edit section: OMG OCEB certification"><span>edit</span></a><span class="mw-editsection-bracket">]</span></span></div> 
+ <p>The Object Management Group (OMG), the international consortium  behind the BPMN standard, offers the OCEB certification (OMG Certified  Expert in BPM). This certification specifically targets business process  modeling with particular emphasis on BPMN 2. The OCEB certification is  structured into five levels: Fundamental, Business Intermediate (BUS  INT), Technical Intermediate (TECH INT), Business Advanced (BUS ADV),  and Technical Advanced (TECH ADV), thus providing a comprehensive  pathway for BPM professionals. </p> <div class="mw-heading mw-heading3">
+ <h3 id="Other_BPM_certifications">Other BPM certifications</h3><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://en.wikipedia.org/w/index.php?title=Business_Process_Model_and_Notation&amp;action=edit&amp;section=18" title="Edit section: Other BPM certifications"><span>edit</span></a><span class="mw-editsection-bracket">]</span></span></div> 
+ <p>Beyond the OCEB, there are other recognized certifications in the BPM field: </p> 
+ <ul>
+ <li>CBPA (Certified Business Process Associate): Offered by the  ABPMP (Association of Business Process Management Professionals), this  certification is aimed at professionals starting in BPM.</li> 
+ <li>CBPP (Certified Business Process Professional): Also awarded by the  ABPMP, the CBPP certification targets experienced professionals,  offering validation of their global expertise in BPM.</li></ul> <div class="mw-heading mw-heading3">
+ <h3 id="The_interest_of_a_BPMN_certification">The interest of a BPMN certification</h3><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://en.wikipedia.org/w/index.php?title=Business_Process_Model_and_Notation&amp;action=edit&amp;section=19" title="Edit section: The interest of a BPMN certification"><span>edit</span></a><span class="mw-editsection-bracket">]</span></span></div> 
+ <p>While BPMN 2 has established itself as an essential standard in  business process modeling, a specific certification for BPMN could  provide an additional guarantee regarding the quality and compliance of  the models used. This becomes particularly relevant when companies  employ external providers for the modeling of their business processes. </p> <div class="mw-heading mw-heading3">
+ <h3 id="BPM_certifying_training_with_BPMN_2">BPM certifying training with BPMN 2</h3><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://en.wikipedia.org/w/index.php?title=Business_Process_Model_and_Notation&amp;action=edit&amp;section=20" title="Edit section: BPM certifying training with BPMN 2"><span>edit</span></a><span class="mw-editsection-bracket">]</span></span></div> 
+ <p>Although OMG does not offer a certification exclusively dedicated to  BPMN 2, various organizations provide certifying training that  encompasses this standard. These trainings cover not just BPMN but also  the principles of management, automation, and digitization of business  processes. They enable learners to master process mapping and modeling  using BPMN 2, essential for optimizing business operations.<sup id="cite_ref-12" class="reference"><a href="#cite_note-12"><span class="cite-bracket">[</span>12<span class="cite-bracket">]</span></a></sup> </p> 
