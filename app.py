@@ -1,5 +1,5 @@
 from flask import Flask, request, render_template
-import baseline_prompt
+import reflection_feedback
 
 app = Flask(__name__)
 
@@ -8,5 +8,5 @@ def index():
     feedback = None
     if request.method == "POST":
         reflection = request.form["reflection"]
-        feedback = baseline_prompt.get_llm_feedback(reflection)
+        feedback = reflection_feedback.get_llm_feedback(reflection)
     return render_template("index.html", feedback=feedback)

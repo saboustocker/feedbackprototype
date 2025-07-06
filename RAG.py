@@ -10,10 +10,12 @@ load_dotenv()
 API_key = os.getenv("OPENAI_API_KEY")
 client = OpenAI(api_key=API_key)
 
+postgres_PW = os.getenv("POSTGRES_PW")
+
 conn = psycopg2.connect(
     dbname="prototype_feedback",
     user="postgres",
-    password="Poeneyser.01",
+    password=postgres_PW,
     host="localhost",
     port="5432"
 )
