@@ -49,17 +49,3 @@ def get_facts_feedback(student_reflection: str) -> str:
     )
 
     return response_baseline.choices[0].message.content.strip()
-
-if __name__ == "__main__":
-    print("Paste the student reflection below. Press ENTER twice to submit:\n")
-    lines = []
-    while True:
-        line = input()
-        if line == "":
-            break
-        lines.append(line)
-    student_reflection = "\n".join(lines)
-
-    feedback = get_facts_feedback(student_reflection)
-    print("\nExtracted Facts:\n")
-    print(feedback)

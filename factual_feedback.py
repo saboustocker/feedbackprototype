@@ -48,7 +48,7 @@ def get_information(query, k = 3):
 
     return results
 
-
+## function that factchecks each claim
 def give_factual_feedback(query):
     
     results_rag = get_information(query)
@@ -77,9 +77,5 @@ def give_factual_feedback(query):
     )
 
     return (response.choices[0].message.content)
-
-for fact in facts:
-    factcheck = give_factual_feedback(fact)
-    print(factcheck)
 
 
